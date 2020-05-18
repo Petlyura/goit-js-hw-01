@@ -33,7 +33,7 @@ const countryInLowerCase = userCountryChoice.toLocaleLowerCase();
 switch (countryInLowerCase) {
   case 'китай':
     alert(
-      `Доставка в ${countryInLowerCase()} будет стоить ${chinaDeliveryPrice} кредитов'`,
+      `Доставка в ${countryInLowerCase} будет стоить ${chinaDeliveryPrice} кредитов'`,
     );
     break;
   case 'чили':
